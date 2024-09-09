@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #e9dede;
+
+}
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    color:black;
+    text-transform: uppercase;
+    
+}
+nav ul li:hover{
+    background: #f5b5b5;
+}
+.active-link{
+    background:#fff;
+}
+header{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis: 45%;
+    height: 25vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px;
+}
+.full-card{
+    flex-basis: 95%;
+}
+footer{
+    background: #000;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background:#f3e6e6;
+}
+thead{
+    background:orange;
+}
